@@ -1,140 +1,216 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel='stylesheet' href="https://www.w3schools.com/lib/w3-colors-highway.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-</head>
-<body class="w3-light-grey">
+  <head>
+    <title>Alexander Wagner Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- START NAV -->
 
-<!-- Page Container -->
-<nav class="w3-bar w3-black w3-large" style= "color:#fff!important;background-color:#8f4b4b!important">
-    <a href="#" class="w3-bar-item w3-button fa fa-home"></a>
-    <a href="#" class="w3-bar-item w3-button fa fa-search"></a>
-    <a href="#" class="w3-bar-item w3-button fa fa-cloud"></a>
-    <a href="#" class="w3-bar-item w3-button fa fa-trash"></a>
-  </nav>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+            <a href="test.html">Test</a>
+        </li>
+      </ul>
+    </nav>
 
-  
+    <!-- END NAV -->
 
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <!-- START WELCOME SECTION -->
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="profile-pic.png" class= "w3-circle" style="width:100%; height: 100%" alt="Avatar">
-        </div>
-        <div class="w3-display-container w3-container w3-text-black">
-            <h2>Alexander Wagner</h2>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large" style="color:#e6bf00!important"></i>Data Analyst</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large" style="color:#e6bf00!important"></i>Miami, FL</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large" style="color:#e6bf00!important"></i>amwagner45@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large" style="color:#e6bf00!important"></i>786-234-4659</p>
-          <hr>
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey I am Alexander</h1>
+      <p>a Data Analyst</p>
+      <a href="resume.html">Resume</a>
+    </section>
 
-          <!-- Maybe add my own images -->
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right" style="color:#e6bf00!important"></i>Skills</b></p>
-          <p>SQL</p>
-          <p>Python</p>
-          <p>R</p>
-          <p>Tableau</p>
-          <p>PowerBI</p>
-        </div>
-      </div><br>
 
-    <!-- End Left Column -->
-    </div>
 
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge" style="color:#e6bf00!important"></i>Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Budget Contracting Coordinator</b></h5>
-          <h6 style="color:#8f4b4b!important"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2020 - Mar 2022</h6>
-          <div>
-            <p>▪ Ensured quality assurance by reporting findings and analysis directly to Director Contracts & Budgets as well as the clinical staff</p>
-            <p>▪ Leveraged company databases and data sets regarding price history to determine fair market value of budget proposals</p>
-            <p>▪ Able to translate results of analysis in simple language to stakeholders of the company.</p>
-            <p>▪ Worked closely alongside the clinical staff troubleshooting and resolving any issues during the process.</p>
-            <p>▪ Displayed ability to multi-task several negotiations concurrently. Ensured that a response is sent in atimely manner.</p>
-          </div>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Project 1</b></h5>
-          <h6 style="color:#8f4b4b!important"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Project 2</b></h5>
-          <h6 style="color:#8f4b4b!important"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-        </div>
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECTS SECTION -->
+
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
+
+      <div class="projects-grid">
+        <a
+          href=""
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project_1.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Project 1
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href=""
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project_2.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Project 2
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href=""
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project_3.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Project 3
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href=""
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project_4.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Project 4
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href=""
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project_5.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Project 5
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href=""
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="/images/project_6.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Project 6
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
       </div>
 
-      <div class="w3-container w3-card w3-white">
-        <div class="w3-container">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge" style="color:#e6bf00!important"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Master's of Accounting, Florida International University</b></h5>
-          <h6 style="color:#8f4b4b!important"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2020 - 2021</h6>
-          <div class="w3-container">
-              <p>Relevant Courses:</p>
-              <p>• Accounting Information Systems Technology, Control and Audit I</p>
-              <p>• Evaluation of Financial Reports, Business Analysis and Valuation </p>
-          </div>
-        
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Bachelor's Degree in Accounting, Florida State University</b></h5>
-          <h6 style="color:#8f4b4b!important"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
-          <div class="w3-container">
-            <p>Relevant Courses:</p>
-            <p>• Introduction to Business Analytics</p>
-            <p>• Accounting Information Systems </p>
-            <p>• Fundamental Business Statistics</p>
-        </div>
-          <hr>
-        </div>
+      <a
+        href="https://codepen.io/FreeCodeCamp/"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
+
+    <!-- END PROJECTS SECTION -->
+
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Contact Me!</h2>
+        <p>You can connect with me on:</p>
       </div>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a href="/cdn-cgi/l/email-protection#d9bca1b8b4a9b5bc99bca1b8b4a9b5bcf7bab6b4" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+        >
+      </div>
+    </section>
 
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
+    <!-- END CONTACT SECTION -->
 
-<footer class="w3-container w3-center w3-margin-top" style="color:#fff!important;background-color:#8f4b4b!important">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+    <!-- START FOOTER SECTION -->
 
-</body>
+    <footer>
+      <p>
+        &copy; Created for
+        <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a>
+      </p>
+    </footer>
+
+    <!-- END FOOTER SECTION -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
